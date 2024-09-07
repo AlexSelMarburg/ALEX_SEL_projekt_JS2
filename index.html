@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="game-left-container">
+        <div id="options-container">
+          <div class="options">
+            <div>
+              <input
+                id="sfxVolume-range"
+                class="volumeControl"
+                type="range"
+                min="0"
+                max="0.14"
+                step="0.02"
+                value="0.14"
+              />
+              <button id="muteSfx-btn">
+                <img src="assets/img/HUD/volume_up.png" alt="" />
+              </button>
+            </div>
+            SFX
+          </div>
+          <div class="options">
+            <div>
+              <input
+                id="musicVolume-range"
+                class="volumeControl"
+                type="range"
+                min="0"
+                max="0.12"
+                step="0.01"
+                value="0.12"
+              />
+              <button id="muteMusic-btn">
+                <img src="assets/img/HUD/volume_up.png" alt="" />
+              </button>
+            </div>
+            Music
+          </div>
+          <div class="options">
+            <button id="toggel-fullscreen-btn">
+              <img src="assets/img/HUD/fullscreen.png" alt="" />
+            </button>
+            Toggle Fullscreen
+          </div>
+          <button id="install-game">Install Game</button>
+        </div>
+      </div>
+      <div id="game-right-container"></div>
+    </div>
+  </body>
+</html>

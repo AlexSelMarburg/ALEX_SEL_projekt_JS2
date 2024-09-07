@@ -1,0 +1,26 @@
+#enemies-container {
+  width: var(--board-width);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px;
+}
+
+.enemies-row {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2px;
+  column-gap: 2px;
+}
+
+.enemies-row .enemy-pos {
+  flex: 1;
+  display: grid;
+  place-content: center center;
+  background-image: url("../../assets/img/backgrounds/textures/enemy-pos-bg.jpeg");
+  border-radius: 5px;
+}

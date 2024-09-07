@@ -1,0 +1,15 @@
+:root {
+  --primary-bg-color: #00072c;
+  --secondary--bg-color: #000;
+  --board-bg-color-1: #00072c;
+
+  --accent-color-call-to-action: #ffb129;
+  --accent-color-danger: #ef5013;
+  --board-text-color: orange;
+
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Crete Round", serif;
+
+  --board-width: 893px;
+  --board-height: 1060px;
+}

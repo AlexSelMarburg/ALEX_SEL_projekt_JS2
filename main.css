@@ -1,0 +1,11 @@
+@import url("./css/base.css");
+@import url("./css/options-panel.css");
+@import url("./css/board/game-board.css");
+@import url("./css/board/start-game-panel.css");
+@import url("./css/board/select-hero-panel.css");
+@import url("./css/board/select-level-panel.css");
+
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("assets/fonts/PressStart2P-Regular.woff2") format("woff2");
+}

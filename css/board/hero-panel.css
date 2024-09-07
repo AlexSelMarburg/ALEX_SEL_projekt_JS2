@@ -1,0 +1,16 @@
+#hero-pos-container {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+  padding-top: 0;
+}
+
+#hero-pos-container .hero-pos {
+  background-image: url("../../assets/img/backgrounds/textures/hero-pos-bg.jpeg");
+  border-radius: 5px;
+  flex: 1;
+  display: grid;
+  place-content: center;
+}

@@ -1,0 +1,104 @@
+#game-left-container {
+  min-width: 280px;
+  height: var(--board-height);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#options-container {
+  background-color: #00072c;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#options-container {
+  height: 240px;
+  color: var(--board-text-color);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-family: var(--primary-font);
+}
+
+#options-container .options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  min-height: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#options-container .options > div {
+  display: flex;
+  gap: 15px;
+}
+
+#options-container .options .volumeControl {
+  max-width: 160px;
+}
+
+#options-container .options button {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: grid;
+  place-items: center;
+}
+
+#options-container .options button:hover {
+  background-color: var(--accent-color-call-to-action);
+  cursor: pointer;
+}
+
+#options-container .options button img {
+  height: 30px;
+}
+
+#toggel-fullscreen-btn {
+  padding: 5px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+#toggel-fullscreen-btn:hover {
+  cursor: pointer;
+  background-color: var(--accent-color-call-to-action);
+  transition: all 0.3s ease;
+}
+
+/* ---------------------------- */
+
+#install-game,
+#start-menu-btn {
+  background: radial-gradient(
+    circle at 2.9% 7.7%,
+    rgb(164, 14, 176) 0%,
+    rgb(254, 101, 101) 90%
+  );
+  font-family: var(--secondary-font);
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#install-game:hover,
+#start-menu-btn:hover {
+  outline-style: solid;
+  outline-color: rgba(255, 255, 255, 0.75);
+  outline-width: 1px;
+  cursor: pointer;
+}

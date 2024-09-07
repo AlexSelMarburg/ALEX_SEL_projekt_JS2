@@ -1,0 +1,57 @@
+#dungeon-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#waves-count {
+  font-size: 2.8rem;
+  color: var(--accent-color-call-to-action);
+}
+
+#waves-info {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent-color-call-to-action);
+}
+
+#level-info-container {
+  height: 225px;
+  background-color: #00072c;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#start-menu {
+  margin-bottom: 5px;
+}
+
+#performence-btn,
+#start-menu {
+  background: radial-gradient(
+    circle at 2.9% 7.7%,
+    rgb(164, 14, 176) 0%,
+    rgb(254, 101, 101) 90%
+  );
+  font-family: var(--secondary-font);
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#performence-btn:hover,
+#start-menu:hover {
+  outline-style: solid;
+  outline-color: rgba(255, 255, 255, 0.75);
+  outline-width: 1px;
+  cursor: pointer;
+}
